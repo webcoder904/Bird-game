@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+canvas {
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
